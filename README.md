@@ -11,7 +11,8 @@ This repository contains code and data used in the paper "Text2FaceGAN: Face Gen
 
 ## Dataset
 
-We leverage the celebA dataset to create a dataset that contains face images with text captions. In `data/` directory you will find `caps.txt` which contains a list of captions. The first column of each row consists of the image name and the second column is the captions. In the second column each caption is seperated by a `|` (please refer to the paper to find what each caption signifies and how these captions were generated). 
+We leverage the CelebA dataset to create a dataset that contains face images with text captions.   
+In `data/` directory you will find `caps.txt` which contains a list of captions. The first column of each row consists of the image name (same as the image names used by CelebA) and the second column is the captions. In the second column each caption is seperated by a `|` (please refer to the paper to find what each caption signifies and how these captions were generated). In our paper we treated all captions corresponding to a single image as one caption and tried to generate the output.
 
 Please refer to the paper for more information.
 
